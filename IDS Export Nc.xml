@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDS xsi:schemaLocation="http://www.iso.org/2014/IDS/18618 file:///C:/Users/juan.beytia/Documents/IDS/IDS.XSD" IDSVersion="2.0" IDSGUID="26db9521-5059-40d4-982b-5dc9719dc095" xmlns="http://www.iso.org/2014/IDS/18618" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<IDSSource HostName="GL-WEB6" MACAddress="005056B60029" OperatorID="" NetworkDomain="Glidewell" ApplicationName="GDX"/>
+	<Submission GUID="d0d9fe64-aa64-490d-8cf6-685f06c3063e" DateUTCSubmitted="2016-11-03T11:33:18.02391-07:00" DateUTCReceived="2016-11-03T11:33:18.02391-07:00">
+		<Originator GUID="" Name="" BusinessType="DOC" FacilityUTCOffset="-8" FacilityId="GDL">
+			<Localization/>
+		</Originator>
+		<Products>
+			<Product ProductIdOriginator="BZH" ProductIdProvider="BZH" ProductIdBroker="" ProductType="FULLCROWN"/>
+		</Products>
+		<Cases>
+			<Case GUID="f17e7c25-fb7e-44ac-b11c-806da3e7eebb">
+				<Patient ReferenceID="dd6fcd4d-9763-4142-83f1-5106303c6d26"/>
+				<Orders>
+					<Order ReferenceID="e23faae3-c0be-47e6-9c7a-12e5a485ba26"/>
+				</Orders>
+			</Case>
+		</Cases>
+		<Dentist>
+			<Dentist ReferenceID="4ED04204-4E42-45AD-B404-129042ABC19A"/>
+		</Dentist>
+		<Patients>
+			<Patient ReferenceID="dd6fcd4d-9763-4142-83f1-5106303c6d26"/>
+		</Patients>
+	</Submission>
+	<Catalogs>
+		<FileCatalog>
+			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_1.txt" FileType="NC" GUID="447fa65a-b831-44ad-a10c-0baa96910937"/>
+			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_2.txt" FileType="NC" GUID="09cbf32c-8e64-44f2-be54-cfe528932f02"/>
+			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_3.txt" FileType="NC" GUID="ea9fbf88-5b40-492f-9d03-730fa5eeb452"/>
+			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_4.txt" FileType="NC" GUID="7c2cb9b6-b40d-48d8-ac88-cfe943d3ce4e"/>
+			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_5.txt" FileType="NC" GUID="9b65a824-d94f-45ac-b07f-6da7e42578ef"/>
+		</FileCatalog>
+		<CADDataCatalog>
+			<Designs>
+				<Design GUID="f68ffb82-70cd-484c-8ef2-7e22469e362e" Name="3" ProductGUID="a6a6db25-cd49-4e3a-bf90-c9904fdf5039" RestorationGUID="25ae59a9-aea0-4426-bb73-915b4558e01d">
+					<DesignProperties MinimumThickness="0.6">
+						<ToolRadiusCompensation Done="true" Radius="0.52"/>
+						<UndercutsRemoved Done="true" DraftAngle="0"/>
+						<InsertionDirection X="0" Y="0" Z="1"/>
+						<BoundingBox>
+							<Point X="-0.00508858638195451" Y="-0.00606308115592739" Z="-0.00460494989864886"/>
+							<Point X="0.0050885863819545" Y="0.00606308115592739" Z="0.00460494989864886"/>
+						</BoundingBox>
+					</DesignProperties>
+					<DesignFiles>
+						<DesignFile>
+							<Teeth>
+								<Tooth Number="3"/>
+							</Teeth>
+						</DesignFile>
+					</DesignFiles>
+					<PartingLine>
+						<DesignFile ReferenceID="5ab0fee3-6f43-4ee7-be91-62c7a9f7e787">
+							<Teeth>
+								<Tooth Number="3"/>
+							</Teeth>
+						</DesignFile>
+					</PartingLine>
+				</Design>
+			</Designs>
+		</CADDataCatalog>
+		<DentistCatalog>
+			<Dentist GUID="4ED04204-4E42-45AD-B404-129042ABC19A" FirstName="Susan" LastName="Lee"/>
+		</DentistCatalog>
+		<PatientCatalog>
+			<Patient GUID="dd6fcd4d-9763-4142-83f1-5106303c6d26" FirstName="Dien" LastName="Nguyen"/>
+		</PatientCatalog>
+		<OrderCatalog>
+			<Order GUID="e23faae3-c0be-47e6-9c7a-12e5a485ba26" OrderType="OTHER">
+				<Dentist ReferenceID="4ED04204-4E42-45AD-B404-129042ABC19A"/>
+				<Products>
+					<Product Brand="" Option1="" Option2="">
+						<Material Class="" Brand=""/>
+						<ProductPricing UnitPrice="99"/>
+						<Restorations>
+							<Restoration Index="1" RType="SINGLE" Quantity="1" GUID="25ae59a9-aea0-4426-bb73-915b4558e01d">
+								<Teeth>
+									<Tooth Number="3">
+										<Shading Vendor="VITAPAN" Body="A3"/>
+										<Stump Value=""/>
+									</Tooth>
+								</Teeth>
+							</Restoration>
+						</Restorations>
+					</Product>
+				</Products>
+				<FileAttachments>
+					<FileAttachment/>
+				</FileAttachments>
+				<DeliveryRequests>
+					<DeliveryRequest DateUTCRequestedDelivery="2016-11-07T10:00:00" IsRush="true"/>
+				</DeliveryRequests>
+
+			</Order>
+		</OrderCatalog>
+	</Catalogs>
+</IDS>

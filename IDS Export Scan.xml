@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDS xsi:schemaLocation="http://www.iso.org/2014/IDS/18618 file:///C:/Users/juan.beytia/Documents/IDS/IDS.XSD" IDSVersion="2.0" IDSGUID="a07ef2ab-c3fa-49cf-bc45-c120564dad5e" xmlns="http://www.iso.org/2014/IDS/18618" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<IDSSource HostName="DT-W77" IPAddress="10.8.7.253" MACAddress="00-50-56-A8-16-61" OperatorID="CDCScanTech01@qa.cloudpoint.com" NetworkDomain="glidewelllab.local" ApplicationName="FastDesign" SystemName="CloudPoint FastDesign" SystemID="1.0.28479.1"/>
+	<Submission GUID="205191f3-3990-40aa-9f80-ffc49725bae2" DateUTCSubmitted="2014-03-28T03:12:15Z">
+		<Originator GUID="" Name="" BusinessType="OTH" FacilityId="GDL">
+			<Localization/>
+		</Originator>
+		<Products>
+			<Product ProductIdOriginator="BZF" ProductIdProvider="BZ" ProductType="FULLCROWN"/>
+		</Products>
+		<Cases>
+			<Case GUID="75a3ca9e-0453-4a09-9a49-cf0149ff54e6" CaseDateUTCCreated="2015-05-15T17:02:40.8122238Z">
+				<Patient ReferenceID="02cd64b6-d3ed-4082-975b-5972782753f3"/>
+				<Orders>
+					<Order ReferenceID="69bbef5e-6a1f-48d2-ba42-9b1b72b04c23"/>
+				</Orders>
+			</Case>
+		</Cases>
+		<Dentist>
+			<Dentist ReferenceID="4ED04204-4E42-45AD-B404-129042ABC19A"/>
+		</Dentist>
+		<Patients>
+			<Patient ReferenceID="02cd64b6-d3ed-4082-975b-5972782753f3"/>
+		</Patients>
+	</Submission>
+	<Catalogs>
+		<FileCatalog>
+			<IdsFile Name="file:///C:/cases.ccfs/1020244380_3__75a3ca9e-0453-4a09-9a49-cf0149ff54e6/Scans/Raw Antagonist Scan.stl" GUID="6f5422fd-4744-4223-afaa-efd26799baf4"/>
+			<IdsFile Name="file:///C:/cases.ccfs/1020244380_3__75a3ca9e-0453-4a09-9a49-cf0149ff54e6/Scans/Raw Preparation Scan.stl" GUID="96744740-47c2-4d54-a92f-9bb6d24fa2f4"/>
+		</FileCatalog>
+		<CADDataCatalog>
+			<Scans>
+				<Scan ScanType="MODEL" GUID="5d92ff44-8095-4b43-87df-dca4d0cf2829" Accuracy="HIGHDEFINITION" Range="1,2,3,4,5,6,7,8">
+					<Scanner SerialNumber="T9501263999472"/>
+					<ScanSystem/>
+					<OcclusalDirection X="0" Y="1" Z="0"/>
+					<Teeth>
+						<Tooth Number="1"/>
+						<Tooth Number="2"/>
+						<Tooth Number="3"/>
+						<Tooth Number="4"/>
+						<Tooth Number="5"/>
+						<Tooth Number="6"/>
+						<Tooth Number="7"/>
+						<Tooth Number="8"/>
+					</Teeth>
+					<ScanFiles>
+						<ScanFile ReferenceID="96744740-47c2-4d54-a92f-9bb6d24fa2f4"/>
+					</ScanFiles>
+				</Scan>
+				<Scan ScanType="MODEL" GUID="ce808870-d096-4816-af84-049da442fc06" Accuracy="HIGHDEFINITION" Range="25,26,27,28,29,30,31,32">
+					<Scanner SerialNumber="T9501263999472"/>
+					<ScanSystem/>
+					<OcclusalDirection X="0" Y="-1" Z="0"/>
+					<Teeth>
+						<Tooth Number="25"/>
+						<Tooth Number="26"/>
+						<Tooth Number="27"/>
+						<Tooth Number="28"/>
+						<Tooth Number="29"/>
+						<Tooth Number="30"/>
+						<Tooth Number="31"/>
+						<Tooth Number="32"/>
+					</Teeth>
+					<ScanFiles>
+						<ScanFile ReferenceID="6f5422fd-4744-4223-afaa-efd26799baf4"/>
+					</ScanFiles>
+				</Scan>
+			</Scans>
+		</CADDataCatalog>
+		<DentistCatalog>
+			<Dentist GUID="4ED04204-4E42-45AD-B404-129042ABC19A" FirstName="Stevey" LastName="DJ" Title="Dr"/>
+		</DentistCatalog>
+		<PatientCatalog>
+			<Patient GUID="02cd64b6-d3ed-4082-975b-5972782753f3" FirstName="Aaa" LastName="ba7e8b5f-d5d0-4389-b705-7542fa43096f" DateOfBirth="0001-01-01"/>
+		</PatientCatalog>
+		<OrderCatalog>
+			<Order GUID="69bbef5e-6a1f-48d2-ba42-9b1b72b04c23" OrderType="OTHER">
+				<Dentist ReferenceID="4ED04204-4E42-45AD-B404-129042ABC19A"/>
+				<Products>
+					<Product Brand="">
+						<Material Class="All Ceramic" Brand="BruxZir"/>
+						<Restorations>
+							<Restoration Index="1" RType="SINGLE" Quantity="1" GUID="e72b3d60-01a1-4817-8dca-5b1bb35ec703">
+								<Teeth>
+									<Tooth Number="3">
+										<Shading Vendor="VITAPAN" Body="A2"/>
+									</Tooth>
+								</Teeth>
+							</Restoration>
+						</Restorations>
+					</Product>
+				</Products>
+				<Scans>
+					<Scan ReferenceID="5d92ff44-8095-4b43-87df-dca4d0cf2829"/>
+					<Scan ReferenceID="ce808870-d096-4816-af84-049da442fc06"/>
+				</Scans>
+				<SpecialInstructions></SpecialInstructions>
+				<DeliveryRequests>
+					<DeliveryRequest DateUTCRequestedDelivery="0001-01-01T00:00:00"/>
+				</DeliveryRequests>
+				<Status StatusCode="Scanned"/>
+
+			</Order>
+		</OrderCatalog>
+	</Catalogs>
+</IDS>

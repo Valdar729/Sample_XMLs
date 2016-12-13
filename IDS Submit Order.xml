@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDS xsi:schemaLocation="http://www.iso.org/2014/IDS/18618 file:///C:/Users/juan.beytia/Documents/IDS/IDS.XSD" IDSVersion="2.0" IDSGUID="41d59541-9591-4b74-80dc-30b9d78e7041" xmlns="http://www.iso.org/2014/IDS/18618" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<IDSSource HostName="GL-WEB6" MACAddress="005056B60029" OperatorID="" NetworkDomain="Glidewell" ApplicationName="GDX"/>
+	<Submission GUID="f7b97e77-6ad2-4818-afbc-9c5456b9a397" DateUTCSubmitted="2016-12-07T10:23:36.6499846-08:00" DateUTCReceived="2016-12-07T10:23:36.6499846-08:00">
+		<Originator GUID="" Name="" BusinessType="OTH" FacilityUTCOffset="-8" FacilityId="GDL">
+			<Localization/>
+		</Originator>
+		<Products>
+			<Product ProductIdOriginator="BZF" ProductIdProvider="BZF" ProductIdBroker="" ProductType="FULLCROWN"/>
+		</Products>
+		<Cases>
+			<Case GUID="14382516-5e10-4411-9f88-0cc8631c1454">
+				<Patient ReferenceID="a95f118f-af74-478c-bcd8-37fa5e35832f"/>
+				<Orders>
+					<Order ReferenceID="5266a4c7-4ec3-4387-9b1e-03b0b736ab6c"/>
+				</Orders>
+			</Case>
+		</Cases>
+		<Dentist>
+			<Dentist ReferenceID="4ED04204-4E42-45AD-B404-129042ABC19A"/>
+		</Dentist>
+		<Patients>
+			<Patient ReferenceID="a95f118f-af74-478c-bcd8-37fa5e35832f"/>
+		</Patients>
+	</Submission>
+	<Catalogs>
+		<DentistCatalog>
+			<Dentist GUID="4ED04204-4E42-45AD-B404-129042ABC19A" FirstName="Trinh" LastName="Vuong"/>
+		</DentistCatalog>
+		<PatientCatalog>
+			<Patient GUID="a95f118f-af74-478c-bcd8-37fa5e35832f" FirstName="IT" LastName="Test"/>
+		</PatientCatalog>
+		<OrderCatalog>
+			<Order GUID="5266a4c7-4ec3-4387-9b1e-03b0b736ab6c" OrderType="OTHER">
+				<Dentist ReferenceID="4ED04204-4E42-45AD-B404-129042ABC19A"/>
+				<Products>
+					<Product Brand="" Option1="" Option2="">
+						<Material Class="" Brand=""/>
+						<ProductPricing UnitPrice="99"/>
+						<Restorations>
+							<Restoration Index="1" RType="SINGLE" Quantity="1" GUID="e51c0703-4d99-4fa4-9f28-33a17a6abedd">
+								<Teeth>
+									<Tooth Number="19">
+										<Shading Vendor="VITAPAN" Body="A2"/>
+										<Stump Value=""/>
+									</Tooth>
+								</Teeth>
+							</Restoration>
+						</Restorations>
+					</Product>
+				</Products>
+				<DeliveryRequests>
+					<DeliveryRequest DateUTCRequestedDelivery="2016-12-20T10:00:00"/>
+				</DeliveryRequests>
+
+			</Order>
+		</OrderCatalog>
+	</Catalogs>
+</IDS>
