@@ -25,12 +25,12 @@
 	</Submission>
 	<Catalogs>
 		<FileCatalog>
-			<IdsFile Name="file:///C:/cases.ccfs/1020244380_3__75a3ca9e-0453-4a09-9a49-cf0149ff54e6/Scans/Raw Antagonist Scan.stl" GUID="876ccc7b-3f51-4e6d-8489-4c55e420ba64"/>
-			<IdsFile Name="file:///C:/cases.ccfs/1020244380_3__75a3ca9e-0453-4a09-9a49-cf0149ff54e6/Scans/Raw Preparation Scan.stl" GUID="b15085fa-d4e5-4ad3-92d4-22e16d296054"/>
-			<IdsFile Name="file://glidewelllab/shares/DMFG/CDC/LocalData/FastDesign/CDC-VK/MillingFiles/1020244380/1020244380-3/1020244380-3-b00.stl" GUID="1c4c1527-c882-4d62-a0f5-13b416d7c37f"/>
-			<IdsFile Name="file://glidewelllab/shares/DMFG/CDC/LocalData/FastDesign/CDC-VK/MillingFiles/1020244380/1020244380-3/1020244380-3-b00.pol" GUID="b54c34d5-c99c-4c3c-81b6-ad2995fcc148"/>
-			<IdsFile Name="file://glidewelllab/shares/DMFG/CDC/LocalData/FastDesign/CDC-VK/MillingFiles/1020244380/1020244380-3/1020244380-3-b00_outer.pol" GUID="7c46b795-4731-4b05-ae2b-5b3b7b4c199c"/>
-			<IdsFile Name="file://glidewelllab/shares/DMFG/CDC/LocalData/FastDesign/CDC-VK/MillingFiles/1020244380/1020244380-3/1020244380-3-separator_boundary.txt" GUID="cde30e0c-bfc2-4821-9fd1-31955961174e"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/Raw+Antagonist+Scan.stl" GUID="876ccc7b-3f51-4e6d-8489-4c55e420ba64"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/Raw+Preparation+Scan.stl" GUID="b15085fa-d4e5-4ad3-92d4-22e16d296054"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/1020244380-3-b00.stl" GUID="1c4c1527-c882-4d62-a0f5-13b416d7c37f"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/1020244380-3-b00.pol" GUID="b54c34d5-c99c-4c3c-81b6-ad2995fcc148"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/1020244380-3-b00_outer.pol" GUID="7c46b795-4731-4b05-ae2b-5b3b7b4c199c"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/1020244380-3-separator_boundary.txt" GUID="cde30e0c-bfc2-4821-9fd1-31955961174e"/>
 		</FileCatalog>
 		<CADDataCatalog>
 			<Scans>
