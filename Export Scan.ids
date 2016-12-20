@@ -25,8 +25,8 @@
 	</Submission>
 	<Catalogs>
 		<FileCatalog>
-			<IdsFile Name="file:///C:/cases.ccfs/1020244380_3__75a3ca9e-0453-4a09-9a49-cf0149ff54e6/Scans/Raw Antagonist Scan.stl" GUID="6f5422fd-4744-4223-afaa-efd26799baf4"/>
-			<IdsFile Name="file:///C:/cases.ccfs/1020244380_3__75a3ca9e-0453-4a09-9a49-cf0149ff54e6/Scans/Raw Preparation Scan.stl" GUID="96744740-47c2-4d54-a92f-9bb6d24fa2f4"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/Raw+Antagonist+Scan.stl" GUID="6f5422fd-4744-4223-afaa-efd26799baf4"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/Raw+Preparation+Scan.stl" GUID="96744740-47c2-4d54-a92f-9bb6d24fa2f4"/>
 		</FileCatalog>
 		<CADDataCatalog>
 			<Scans>
