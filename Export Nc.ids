@@ -25,11 +25,11 @@
 	</Submission>
 	<Catalogs>
 		<FileCatalog>
-			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_1.txt" FileType="NC" GUID="447fa65a-b831-44ad-a10c-0baa96910937"/>
-			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_2.txt" FileType="NC" GUID="09cbf32c-8e64-44f2-be54-cfe528932f02"/>
-			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_3.txt" FileType="NC" GUID="ea9fbf88-5b40-492f-9d03-730fa5eeb452"/>
-			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_4.txt" FileType="NC" GUID="7c2cb9b6-b40d-48d8-ac88-cfe943d3ce4e"/>
-			<IdsFile Name="\\glidewelllab\shares\DMFG\GDL\LocalData\NCFiles\MillingCenter\1024730438_5d892cdb-d780-4857-bfce-fc39ac2a63a4\BRUXZIR_16_2016-11-03_105010_5.txt" FileType="NC" GUID="9b65a824-d94f-45ac-b07f-6da7e42578ef"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/BRUXZIR_16_2016-11-03_105010_1.txt" FileType="NC" GUID="447fa65a-b831-44ad-a10c-0baa96910937"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/BRUXZIR_16_2016-11-03_105010_2.txt" FileType="NC" GUID="09cbf32c-8e64-44f2-be54-cfe528932f02"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/BRUXZIR_16_2016-11-03_105010_3.txt" FileType="NC" GUID="ea9fbf88-5b40-492f-9d03-730fa5eeb452"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/BRUXZIR_16_2016-11-03_105010_4.txt" FileType="NC" GUID="7c2cb9b6-b40d-48d8-ac88-cfe943d3ce4e"/>
+			<IdsFile Name="https://s3.amazonaws.com/ids-file-catalog/BRUXZIR_16_2016-11-03_105010_5.txt" FileType="NC" GUID="9b65a824-d94f-45ac-b07f-6da7e42578ef"/>
 		</FileCatalog>
 		<CADDataCatalog>
 			<Designs>
