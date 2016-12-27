@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<IDS xsi:schemaLocation="http://www.iso.org/2014/IDS/18618 file:///C:/Users/juan.beytia/Documents/IDS/IDS.XSD" IDSVersion="2.0" IDSGUID="86f4beaa-d514-451d-b90e-a7b959dedd2b" xmlns="http://www.iso.org/2014/IDS/18618" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<IDS xsi:schemaLocation="https://s3.amazonaws.com/ids-file-catalog/IDS.XSD" IDSVersion="2.0" IDSGUID="86f4beaa-d514-451d-b90e-a7b959dedd2b" xmlns="http://www.iso.org/2014/IDS/18618" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<IDSSource HostName="DT-W77" IPAddress="10.8.7.253" MACAddress="00-50-56-A8-16-61" OperatorID="CDCQCTech01@qa.cloudpoint.com" NetworkDomain="glidewelllab.local" ApplicationName="FastDesign" SystemName="CloudPoint FastDesign" SystemID="1.0.28479.1"/>
 	<Submission GUID="205191f3-3990-40aa-9f80-ffc49725bae2" DateUTCSubmitted="2014-03-28T03:12:15Z">
 		<Originator GUID="" Name="" BusinessType="OTH" FacilityId="GDL">
