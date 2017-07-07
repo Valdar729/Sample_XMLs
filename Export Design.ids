@@ -83,7 +83,7 @@
 						</BoundingBox>
 					</DesignProperties>
 					<DesignFiles>
-						<DesignFile>
+						<DesignFile ReferenceID="1c4c1527-c882-4d62-a0f5-13b416d7c37f">
 							<Teeth>
 								<Tooth Number="3"/>
 							</Teeth>
