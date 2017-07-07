@@ -115,7 +115,7 @@
 							<Restoration Index="1" RType="SINGLE" Quantity="1" GUID="e72b3d60-01a1-4817-8dca-5b1bb35ec703">
 								<Teeth>
 									<Tooth Number="3">
-										<Shading Vendor="VITAPAN" Body="A2"/>
+										<Shading Body="A2"/>
 									</Tooth>
 								</Teeth>
 							</Restoration>
